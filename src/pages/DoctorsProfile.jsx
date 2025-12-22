@@ -2,11 +2,12 @@ import { useParams } from "react-router";
 import { PiTrademarkRegistered } from "react-icons/pi";
 import useFetch from "../hooks/useFetch";
 import AppointmentBox from "../components/AppointmentBox";
+import Loading from "../components/Loading";
 function DoctorsProfile() {
     const params = useParams();
     const id = Number(params.id)
     const { hasError, isLoading, data } = useFetch();
-    if (isLoading) return <h1>Loading...</h1>
+    if (isLoading) return <Loading />
     if (hasError) return <h1>Error...</h1>
     const doctor = data.find(doctor => doctor.id === id);
     return (

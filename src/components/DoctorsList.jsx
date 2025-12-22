@@ -1,8 +1,9 @@
 import useFetch from "../hooks/useFetch";
 import Doctor from "./Doctor";
+import Loading from "./Loading";
 function DoctorsList() {
     const { hasError, isLoading, data } = useFetch();
-    if (isLoading) return <h1>Loading...</h1>
+    if (isLoading) return <Loading />
     if (hasError) return <h1>Error...</h1>
 
     return (
