@@ -14,4 +14,8 @@ const saveBookingsData = (data) => {
     let newData = [...oldData, data];
     localStorage.setItem(BOOKINGS_DATA, JSON.stringify(newData));
 }
-export { getBookingsData, saveBookingsData };
+
+const updateBookingsData = (data) => {
+    localStorage.setItem(BOOKINGS_DATA, JSON.stringify(data));
+}
+export { getBookingsData, saveBookingsData, updateBookingsData };
