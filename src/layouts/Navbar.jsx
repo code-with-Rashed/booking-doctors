@@ -1,4 +1,5 @@
 import Logo from "../assets/logo.png"
+import Links from "./Links";
 function Navbar() {
     return (
         <nav className="navbar w-[80%] mx-auto">
@@ -10,20 +11,14 @@ function Navbar() {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Home</a></li>
-                        <li><a>My-Bookings</a></li>
-                        <li><a>Blogs</a></li>
-                        <li><a>Contact Us</a></li>
+                        <Links />
                     </ul>
                 </div>
-                <a className="flex items-center"><span ><img src={Logo} alt="logo" className="w-[80%]"/></span><span className="font-extrabold">Doc-Book</span></a>
+                <a className="flex items-center"><span ><img src={Logo} alt="logo" className="w-[80%]" /></span><span className="font-extrabold">Doc-Book</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>My-Bookings</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
+                    <Links />
                 </ul>
             </div>
             <div className="navbar-end">

@@ -1,13 +1,13 @@
 import Logo from "../assets/logo.png"
+import Links from "./Links";
 function Footer() {
     return (
         <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 mt-20">
             <a className="flex items-center"><span><img src={Logo} alt="logo" className="w-[80%]" /></span><span className="font-bold">Doc-Book</span></a>
-            <nav className="grid grid-flow-col gap-4">
-                <a className="link link-hover">Home</a>
-                <a className="link link-hover">My-Bookings</a>
-                <a className="link link-hover">Blogs</a>
-                <a className="link link-hover">Contact Us</a>
+            <nav >
+                <ul className="grid grid-flow-col gap-4">
+                    <Links />
+                </ul>
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4">
