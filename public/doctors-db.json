@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/4nw1fFc7/woman-2141808-640.jpg",
+    "name": "Dr. Ayesha Rahman",
+    "education": "MBBS, FCPS (Medicine)",
+    "speciality": "Internal Medicine",
+    "experience": "12 years",
+    "registration_number": "BMDC-10234",
+    "fees": 800,
+    "working_days": ["Sunday", "Monday", "Wednesday", "Thursday"],
+    "working_at": "Dhaka Medical College Hospital"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/DP3sK8Bx/doctor-with-his-arms-crossed-white-background.jpg",
+    "name": "Dr. Kamal Hossain",
+    "education": "MBBS, MS (Orthopedics)",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "15 years",
+    "registration_number": "BMDC-11245",
+    "fees": 1000,
+    "working_days": ["Monday", "Tuesday", "Thursday", "Saturday"],
+    "working_at": "Square Hospital"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/d4XcVwmn/female-doctor-hospital.jpg",
+    "name": "Dr. Nusrat Jahan",
+    "education": "MBBS, MD (Cardiology)",
+    "speciality": "Cardiologist",
+    "experience": "10 years",
+    "registration_number": "BMDC-12567",
+    "fees": 1200,
+    "working_days": ["Sunday", "Tuesday", "Wednesday", "Friday"],
+    "working_at": "United Hospital"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/5gySgBd9/ai-generated-9019518-640.png",
+    "name": "Dr. Tanvir Ahmed",
+    "education": "MBBS, MS (ENT)",
+    "speciality": "ENT Specialist",
+    "experience": "8 years",
+    "registration_number": "BMDC-13579",
+    "fees": 700,
+    "working_days": ["Monday", "Wednesday", "Thursday", "Saturday"],
+    "working_at": "Ibn Sina Hospital"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/G38DntBz/confident-doctor-clinic.jpg",
+    "name": "Dr. Shirin Akter",
+    "education": "MBBS, FCPS (Gynecology)",
+    "speciality": "Gynecologist",
+    "experience": "14 years",
+    "registration_number": "BMDC-14568",
+    "fees": 900,
+    "working_days": ["Sunday", "Tuesday", "Thursday", "Friday"],
+    "working_at": "Bangabandhu Sheikh Mujib Medical University (BSMMU)"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/4nh24N6p/OIP.webp",
+    "name": "Dr. Mahmudul Hasan",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurologist",
+    "experience": "11 years",
+    "registration_number": "BMDC-15678",
+    "fees": 1100,
+    "working_days": ["Monday", "Tuesday", "Friday", "Saturday"],
+    "working_at": "Apollo Hospitals Dhaka"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/d4XcVwmn/female-doctor-hospital.jpg",
+    "name": "Dr. Farzana Chowdhury",
+    "education": "MBBS, FCPS (Dermatology)",
+    "speciality": "Dermatologist",
+    "experience": "9 years",
+    "registration_number": "BMDC-16789",
+    "fees": 600,
+    "working_days": ["Sunday", "Wednesday", "Thursday", "Saturday"],
+    "working_at": "Popular Diagnostic Centre"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/mr9JS41d/download.webp",
+    "name": "Dr. Imran Karim",
+    "education": "MBBS, MS (Urology)",
+    "speciality": "Urologist",
+    "experience": "13 years",
+    "registration_number": "BMDC-17890",
+    "fees": 950,
+    "working_days": ["Monday", "Tuesday", "Thursday", "Friday"],
+    "working_at": "Labaid Specialized Hospital"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/G38DntBz/confident-doctor-clinic.jpg",
+    "name": "Dr. Laila Sultana",
+    "education": "MBBS, MD (Pediatrics)",
+    "speciality": "Pediatrician",
+    "experience": "16 years",
+    "registration_number": "BMDC-18901",
+    "fees": 850,
+    "working_days": ["Sunday", "Tuesday", "Wednesday", "Saturday"],
+    "working_at": "Central Hospital Dhaka"
+  }
+]
