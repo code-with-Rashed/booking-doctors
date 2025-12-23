@@ -1,5 +1,6 @@
 import { PiTrademarkRegistered } from "react-icons/pi";
 import { Link } from "react-router";
+import BASE_URL from "../utilities/baseUrl";
 function Doctor({ doctorData }) {
     return (
         <div className="card bg-base-100 shadow-md p-5">
@@ -20,7 +21,7 @@ function Doctor({ doctorData }) {
                 </div>
                 <p className="mt-2 text-sm/6 flex items-center"><PiTrademarkRegistered className="me-1" /> Reg No: {doctorData.registration_number}</p>
                 <div className="card-actions">
-                    <Link to={`/doctors-profile/${doctorData.id}`} className="btn btn-outline rounded-full btn-primary w-[80%] mx-auto my-5">View Details</Link>
+                    <Link to={`${BASE_URL}/doctors-profile/${doctorData.id}`} className="btn btn-outline rounded-full btn-primary w-[80%] mx-auto my-5">View Details</Link>
                 </div>
             </div>
         </div>

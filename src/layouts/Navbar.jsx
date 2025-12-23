@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 import Logo from "../assets/logo.png"
 import Links from "./Links";
+import BASE_URL from "../utilities/baseUrl";
+
 function Navbar() {
     return (
         <nav className="navbar w-[80%] mx-auto">
@@ -15,7 +17,7 @@ function Navbar() {
                         <Links />
                     </ul>
                 </div>
-                <Link to="/" className="flex items-center"><span ><img src={Logo} alt="logo" className="w-[80%]" /></span><span className="font-extrabold md:block hidden">Doc-Book</span></Link>
+                <Link to={BASE_URL} className="flex items-center"><span ><img src={Logo} alt="logo" className="w-[80%]" /></span><span className="font-extrabold md:block hidden">Doc-Book</span></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

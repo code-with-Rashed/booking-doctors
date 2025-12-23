@@ -4,15 +4,16 @@ import Home from "./pages/Home"
 import DoctorsProfile from "./pages/DoctorsProfile"
 import MyBookings from "./pages/MyBookings"
 import NotFound from "./pages/NotFound"
+import BASE_URL from "./utilities/baseUrl"
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="doctors-profile/:id" element={<DoctorsProfile />}></Route>
-          <Route path="my-bookings" element={<MyBookings />}></Route>
+        <Route path={BASE_URL} element={<Layout />}>
+          <Route path={BASE_URL} element={<Home />}></Route>
+          <Route path={BASE_URL + "/doctors-profile/:id"} element={<DoctorsProfile />}></Route>
+          <Route path={BASE_URL + "/my-bookings"} element={<MyBookings />}></Route>
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import BASE_URL from "../utilities/baseUrl";
 function useFetch() {
-    const url = "/doctors-db.json";
+    const url = BASE_URL + "/doctors-db.json";
     const [data, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [hasError, setHasError] = useState(null);

@@ -1,10 +1,12 @@
 import { Link } from "react-router";
 import Logo from "../assets/logo.png"
 import Links from "./Links";
+import BASE_URL from "../utilities/baseUrl";
+
 function Footer() {
     return (
         <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 mt-20">
-            <Link to="/" className="flex items-center"><span><img src={Logo} alt="logo"/></span><span className="font-bold">Doc-Book</span></Link>
+            <Link to={BASE_URL} className="flex items-center"><span><img src={Logo} alt="logo" /></span><span className="font-bold">Doc-Book</span></Link>
             <nav >
                 <ul className="grid grid-flow-col gap-4">
                     <Links />
