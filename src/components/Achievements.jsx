@@ -2,6 +2,8 @@ import TotalDoctors from "../assets/success-doctor.png"
 import TotalStuffs from "../assets/success-staffs.png"
 import TotalPatients from "../assets/success-patients.png"
 import TotalReview from "../assets/success-review.png"
+import CountUp from "react-countup"
+
 function Achievements() {
     return (
         <section className="w-[80%] mx-auto mt-8">
@@ -18,7 +20,7 @@ function Achievements() {
                         />
                     </figure>
                     <div>
-                        <h2 className="card-title font-bold text-lg">199 +</h2>
+                        <h2 className="card-title font-bold text-lg"><CountUp end="199" duration="2" enableScrollSpy /> +</h2>
                         <p className="my-2 text-sm/6">Total Doctors</p>
                     </div>
                 </div>
@@ -30,7 +32,7 @@ function Achievements() {
                         />
                     </figure>
                     <div>
-                        <h2 className="card-title font-bold text-lg">200 +</h2>
+                        <h2 className="card-title font-bold text-lg"><CountUp end="200" duration="2" enableScrollSpy /> +</h2>
                         <p className="my-2 text-sm/6">Total Reviews</p>
                     </div>
                 </div>
@@ -42,7 +44,7 @@ function Achievements() {
                         />
                     </figure>
                     <div>
-                        <h2 className="card-title font-bold text-lg">1990 +</h2>
+                        <h2 className="card-title font-bold text-lg"><CountUp end="1990" duration="2" enableScrollSpy /> +</h2>
                         <p className="my-2 text-sm/6">Total Patients</p>
                     </div>
                 </div>
@@ -54,7 +56,7 @@ function Achievements() {
                         />
                     </figure>
                     <div>
-                        <h2 className="card-title font-bold text-lg">300 +</h2>
+                        <h2 className="card-title font-bold text-lg"><CountUp end="300" duration="2" enableScrollSpy /> +</h2>
                         <p className="my-2 text-sm/6">Total Stuffs</p>
                     </div>
                 </div>
