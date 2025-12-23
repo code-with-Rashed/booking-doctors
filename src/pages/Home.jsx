@@ -12,8 +12,8 @@ function Home() {
                     <h1 className="font-bold text-xl mb-4">Dependable Care, Backed by Trusted Professionals.</h1>
                     <p>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
                 </div>
-                <div className="w-[50%] mx-auto flex justify-between">
-                    <label className="input rounded-full basis-1/1 me-2">
+                <div className="w-[50%] mx-auto flex items-center flex-wrap md:flex-nowrap gap-2 justify-between">
+                    <label className="input rounded-full basis-1/1">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <g
                                 strokeLinejoin="round"

@@ -26,7 +26,7 @@ function DoctorsProfile() {
                     <img
                         src={doctor.image}
                         alt="Doctor"
-                        className="rounded-xl h-90 w-full"
+                        className="rounded-xl h-80 md:h-full w-full object-cover"
                     />
                 </figure>
                 <div className="card-body">
@@ -40,9 +40,11 @@ function DoctorsProfile() {
                         <p className="mb-2 text-sm/6 text-gray-700">Working at</p>
                         <p className="font-semibold">{doctor.working_at}</p>
                         <p className="flex items-center my-4 border-y border-dashed py-3"><PiTrademarkRegistered className="me-1" /> Reg No: {doctor.registration_number}</p>
-                        <div>
+                        <div className="flex flex-wrap items-center gap-1">
                             <span className="font-bold me-2">Availablity</span>
-                            {doctor.working_days.map((day, i) => <div className="badge badge-warning mx-1 font-semibold" key={i}>{day}</div>)}
+                            <div>
+                                {doctor.working_days.map((day, i) => <div className="badge badge-warning m-1 font-semibold" key={i}>{day}</div>)}
+                            </div>
                         </div>
                         <p className="mt-4"><span className="font-bold me-2">Consultation Fee:</span><span className="font-bold me-2 text-primary">Taka : {doctor.fees} <span className="font-normal text-gray-500">(inc vat)</span> Per Consultation</span></p>
                     </div>

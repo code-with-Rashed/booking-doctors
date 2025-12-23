@@ -7,7 +7,7 @@ function Doctor({ doctorData }) {
                 <img
                     src={doctorData.image}
                     alt="Doctor"
-                    className="rounded-xl h-90 w-full" />
+                    className="rounded-xl h-50 md:h-90 w-full object-fill" />
             </figure>
             <div>
                 <div className="my-3">

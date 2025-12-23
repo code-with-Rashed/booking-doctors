@@ -5,7 +5,7 @@ function AppointmentBox({ working_days, doctorId }) {
     return (
         <div className="bg-base-300 rounded-2xl p-10">
             <h1 className="font-bold text-xl mb-4 text-center">Book An Appointment</h1>
-            <div className="border-y border-dashed py-4 my-4 flex justify-between items-center">
+            <div className="border-y border-dashed py-4 my-4 flex flex-wrap gap-1 justify-between items-center">
                 <span className="font-bold">Availability</span>
                 {isMatchDay ? (<div className="badge badge-primary font-semibold">Doctot Available Today</div>) : (<div className="badge badge-error font-semibold">Doctot Not Available Today</div>)}
             </div>

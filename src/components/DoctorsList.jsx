@@ -16,7 +16,7 @@ function DoctorsList() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-5">
                 {data.map(doctor => <Doctor doctorData={doctor} key={doctor.id} />)}
             </div>
-            <button className="btn btn-primary rounded-full w-[20%] mx-auto block my-6">View All Doctors</button>
+            <button className="btn btn-primary rounded-full mx-auto block my-6">View All Doctors</button>
         </section>
     )
 }

@@ -1,7 +1,7 @@
 function BookedAppointment({ appointment, cancelAppointment }) {
     return (
         <div className="bg-base-100 rounded-2xl p-10 my-6">
-            <div className="border-b border-gray-400 border-dashed py-4 my-3 flex justify-between items-center">
+            <div className="border-b border-gray-400 border-dashed py-4 my-3 flex flex-wrap justify-between items-center">
                 <div>
                     <p className="font-bold">{appointment.name}</p>
                     <p className="my-2 text-sm/6 text-gray-600">{appointment.education}</p>

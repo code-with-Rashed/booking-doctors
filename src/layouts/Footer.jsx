@@ -1,9 +1,10 @@
+import { Link } from "react-router";
 import Logo from "../assets/logo.png"
 import Links from "./Links";
 function Footer() {
     return (
         <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 mt-20">
-            <a className="flex items-center"><span><img src={Logo} alt="logo" className="w-[80%]" /></span><span className="font-bold">Doc-Book</span></a>
+            <Link to="/" className="flex items-center"><span><img src={Logo} alt="logo"/></span><span className="font-bold">Doc-Book</span></Link>
             <nav >
                 <ul className="grid grid-flow-col gap-4">
                     <Links />
