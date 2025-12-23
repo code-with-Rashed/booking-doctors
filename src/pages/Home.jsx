@@ -1,9 +1,12 @@
 import Banner from "../assets/banner-img-1.png"
 import Achievements from "../components/Achievements";
 import DoctorsList from "../components/DoctorsList";
+import PageTitle from "../utilities/pageTitle";
+
 function Home() {
     return (
         <>
+            <PageTitle title="Home Page" />
             <section className="bg-base-200 shadow-md border-3 border-base-100 rounded-lg w-[90%] mx-auto py-10">
                 <div className="w-[70%] mx-auto text-center my-5">
                     <h1 className="font-bold text-xl mb-4">Dependable Care, Backed by Trusted Professionals.</h1>

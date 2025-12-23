@@ -3,6 +3,8 @@ import { PiTrademarkRegistered } from "react-icons/pi";
 import useFetch from "../hooks/useFetch";
 import AppointmentBox from "../components/AppointmentBox";
 import Loading from "../components/Loading";
+import PageTitle from "../utilities/pageTitle";
+
 function DoctorsProfile() {
     const params = useParams();
     const id = Number(params.id)
@@ -12,6 +14,7 @@ function DoctorsProfile() {
     const doctor = data.find(doctor => doctor.id === id);
     return (
         <section className="w-[80%] mx-auto my-10">
+            <PageTitle title={doctor.name} />
             <div className="bg-base-300 rounded-2xl text-center p-10">
                 <div className="w-[70%] mx-auto text-center my-5">
                     <h1 className="font-bold text-xl mb-4">Doctor's Profile Details.</h1>

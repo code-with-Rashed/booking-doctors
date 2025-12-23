@@ -5,6 +5,8 @@ import { getBookingsData, updateBookingsData } from "../utilities/handleBookings
 import Loading from "../components/Loading";
 import Chart from "../components/Chart";
 import { toast, ToastContainer } from "react-toastify";
+import PageTitle from "../utilities/pageTitle";
+
 function MyBookings() {
 
     const { hasError, isLoading, data } = useFetch();
@@ -22,7 +24,7 @@ function MyBookings() {
             }
             setAppointmentList(appointments);
         }
-    }, [isLoading,data]);
+    }, [isLoading, data]);
 
     const cancelAppointment = (id) => {
         const updateItem = [];
@@ -43,6 +45,7 @@ function MyBookings() {
 
     return (
         <section className="w-[80%] mx-auto my-10">
+            <PageTitle title="My Appointments" />
             <div className="bg-base-100 rounded-2xl p-10 my-6">
                 <Chart appointmentList={appointmentList} />
             </div>
